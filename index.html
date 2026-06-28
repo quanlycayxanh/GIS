@@ -169,7 +169,7 @@
         }
 
         // ── LOAD DỮ LIỆU ──────────────────────────────────────────────────────
-        fetch('ctu_biomass.geojson')
+        fetch('ctu_carbon.geojson')
             .then(r => r.json())
             .then(geojsonData => {
                 geojsonData.features.forEach(feature => {
